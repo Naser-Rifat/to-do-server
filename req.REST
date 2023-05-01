@@ -1,0 +1,20 @@
+POST http://localhost:5500/api/item
+Content-Type: application/json
+
+{
+    "item":"This is the third Item"
+}
+
+
+###
+GET http://localhost:5500/api/item
+Content-Type: application/json
+
+
+###
+PUT http://localhost:5500/api/item/644f3e8422209e4423b78532
+Content-Type: application/json
+
+{
+    "item":"This is the third Item updated"
+}
